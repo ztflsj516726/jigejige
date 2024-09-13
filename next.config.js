@@ -1,6 +1,6 @@
 const isProduction = process.env.NODE_ENV === 'production'
 
-const assetPrefix = isProduction ? '/out' : '';
+const assetPrefix = isProduction ? '/jigejige' : '';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -9,8 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProduction ? '/out' : '',
-  assetPrefix: isProduction ? '/out' : '',
+  basePath: isProduction ? '/jigejige' : '',
+  assetPrefix: isProduction ? '/jigejige' : '',
   env: {
     ASSET_PREFIX: assetPrefix
   }
