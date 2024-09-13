@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import type { NextPage } from 'next'
 import IKun from '../src/ikun'
-import styles from '../styles/Home.module.css'
+import styles from '/styles/Home.module.css'
 
 const Home: NextPage = () => {
   const containerRef = useRef<HTMLDivElement | null>(null)
